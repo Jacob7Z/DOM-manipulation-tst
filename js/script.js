@@ -77,4 +77,32 @@ content.textContent = 'this is the box div';
 
 box.appendChild(content);
 
-//
+
+//exercise
+const containerEx = document.querySelector('#containerEx');
+
+
+const para = document.createElement('para');
+para.style.color ='red';
+para.textContent = 'hey i am red';
+containerEx.appendChild(para);
+
+const h3 = document.createElement('h3');
+h3.style.color = 'blue';
+h3.textContent = 'hey i am blue dabadedabada';
+containerEx.appendChild(h3);
+
+
+const divW = document.createElement('div');
+divW.style = 'backgroundColor = pink; border: 5px solid black;';
+
+
+const divWh1 = document.createElement('h1');
+divWh1.textContent = 'i am div';
+const divWp = document.createElement('p');
+divWp.textContent = 'ME TOO';
+
+divW.appendChild(divWh1);
+divW.appendChild(divWp);
+
+containerEx.appendChild(divW);
